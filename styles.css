@@ -142,3 +142,24 @@ body{
 }
 
 
+@media only screen and (max-width: 1023px){
+    .container{
+        display: flex;
+        width: 100%;
+        justify-items: center;
+    }
+
+    .secundario{
+        display: flex;
+        flex-direction: column;
+    
+   }
+
+   .secundario__imagem{
+        width: 100%;
+   }
+
+   .dispositivos__lista{
+        margin: none;
+   }
+}
